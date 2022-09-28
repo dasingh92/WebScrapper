@@ -1,13 +1,9 @@
-<img src="https://www.sympli.com.au/wp-content/uploads/sympli-logo-black.svg">
-
-------------------------------------
-
-# Web Scapper
-
-This web scrapper is a solution to the problem stated below. The scrapper is pretty simple to use and returns the values as JSON objects.
+# Web Scapper API
+---
+This web scrapper is a solution to the problem for checking the SEO ranking in different browsers for a given organization (we are considering www.commbank.com.au).The scrapper is pretty simple to use and returns the values as JSON objects.
 
 ## How To Launch Web Scrapper
-Sympli (see what I did there !) clone this git repository and load the sln file into your visual studio and launch. If you like the terminal, then you can use :
+Simply clone this git repository and load the sln file into your visual studio and launch or if you like the terminal, then you can use :
 ```
 git clone <URL>
 cd SympliDevelopmentProject
@@ -30,6 +26,6 @@ The call once we have cached results is much faster as can be seen from the scre
 ## What I would add to improve the web scrapper
 - This can be a useful tool in a lot of places where web scrapping may be beneficial so the generalized version would include flexibility around host address, and the endpoint being called (which is currently a hardcoded value within the system).
 - Parsing and matching with a regular expression for the whole document returned by the httpClient is currently taking a long time (roughly 2 seconds). I would research and look into possible ways to make the parsing quicker.
-- Make this a background service which runs at regular intervals throughout the day (configurable) and sends an email to the concerned personnel in the morning informing of previous days performance.
+- Make this a background service which runs at regular intervals throughout the day (configurable) and sends an email to the concerned personnel in the morning informing of previous days SEO performance.
 
 ### PS: To add more search engines simply add their URL to the `appsettings.json` file under the key `SearchEngines`.

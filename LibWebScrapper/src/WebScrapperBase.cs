@@ -11,7 +11,7 @@ namespace LibWebScrapper.src
         public IEnumerable<string> SearchEngines { get; set; }
 
         // Might change to configurable property for a more versatile implementation
-        public const string urlToCheck = "www.sympli.com.au"; 
+        public const string urlToCheck = "www.commbank.com.au"; 
         protected HttpClient HttpClient { get; set; } = new();
         // no args constructor with vanilla HttpClient
         public WebScrapperBase(){
