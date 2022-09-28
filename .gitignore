@@ -254,7 +254,7 @@ appsettings.Local.json
 appsettings.Local.*.json
 workspace.db
 
-.sympli
+*.jpg
 healthchecksdb
 
 # idea
